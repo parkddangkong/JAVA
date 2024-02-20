@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+	
+				Scanner Sc = new Scanner(System.in);
+				
+				int A = Sc.nextInt();
+				int B = Sc.nextInt();
+				
+				String answer = "";
+				
+				if(A < B) {
+					answer = "<";
+				}
+				else if(A > B) {
+					answer = ">";
+				}
+				else {
+					answer ="==";
+				}
+				
+				System.out.println(answer);
+	
+	}
+
+}
